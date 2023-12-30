@@ -17,7 +17,7 @@ body{
 }
 .main-container .sub-heading{
     background-color: white;
-    height: 600px;
+    height: 500px;
     border-radius: 10px;
     width: 500px;
     display: flex;
@@ -74,7 +74,7 @@ body{
 .main-container .sub-heading .score{
     background-color: white;
     color: black;
-    box-shadow: 8px 8px 15px rgb(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 15px rgb(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
     width: 300px;
     margin-top: 25px;
     font-size: 20px;
@@ -87,11 +87,11 @@ body{
     /* font-weight: bold; */
     font-size: 30px;
     margin-top: 30px;
-    margin-bottom: -95px;
+    margin-bottom: -195px;
     color: #4D519F;
     height: 20px;
 }
-.main-container .sub-heading .lowOrHigh #resetGame{
+/* .main-container .sub-heading .lowOrHigh #resetGame{
     margin-bottom: -100px;
     justify-content: center;
     padding: 20px 50px;
@@ -104,4 +104,4 @@ body{
     border-radius: 10px;
     cursor: pointer;
 
-}
+} */
