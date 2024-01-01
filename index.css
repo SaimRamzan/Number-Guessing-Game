@@ -18,8 +18,8 @@ body{
 .main-container .sub-heading{
     background-color: white;
     height: 500px;
-    border-radius: 10px;
-    width: 500px;
+    border-radius: 5px;
+    width: 485px;
     display: flex;
     flex-direction: column;
     justify-content: center;
