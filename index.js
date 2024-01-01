@@ -16,12 +16,13 @@ button.addEventListener('click',()=>{
 // correct Guess & reset
     }else if (input == secretNumber){
             document.getElementById('lowHigh').innerHTML = 'You guess is Correct 🥳'
+            counter = 0;
+            score.textContent = counter;
             setTimeout(() => {
                     document.getElementById('input').value = '';
                     document.getElementById('guessNumberAre').innerHTML = `Guessed number are: 0`;
                     secretNumber = Math.trunc(Math.random() * 15) + 1
                     console.log(secretNumber);
-                    document.getElementById('scores').textContent = `0`
                     document.getElementById('lowHigh').innerHTML = `Try Guess 🤔`
             }, 1000);
 // input grater to secret number
@@ -37,22 +38,3 @@ button.addEventListener('click',()=>{
     }
 })
 
-// resetButton.addEventListener('click', ()=>{
-//     document.getElementById('input').value = '';
-//     document.getElementById('guessNumberAre').innerHTML = `Guessed number are: 0`;
-//     secretNumber = Math.trunc(Math.random() * 15) + 1
-//     console.log(secretNumber);
-//     document.getElementById('scores').innerHTML = `0`
-//     document.getElementById('lowHigh').innerHTML = `Try Guess 🤔`
-
-// })
-
-// setTimeout(resetButton.addEventListener('click', ()=>{
-//     document.getElementById('input').value = '';
-//     document.getElementById('guessNumberAre').innerHTML = `Guessed number are: 0`;
-//     secretNumber = Math.trunc(Math.random() * 15) + 1
-//     console.log(secretNumber);
-//     document.getElementById('scores').innerHTML = `0`
-//     document.getElementById('lowHigh').innerHTML = `Try Guess 🤔`
-
-// }), 3000);
